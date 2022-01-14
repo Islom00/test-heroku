@@ -1,0 +1,1 @@
+web: gunicorn HerokuLearn.wsgi --log-file -

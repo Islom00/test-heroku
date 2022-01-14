@@ -13,7 +13,7 @@
   <body>
     <div class="container text-dark m-5">
         {% for i in pictures %}
-        <h1 class="text-center bg-danger">{{ i.name }}</h1>
+        <h1 class="text-center bg-danger mt-5">{{ i.name }}</h1>
         <img src="{{ i.image.url }}" class="img-fluid" alt="...">
         {% endfor %}
     </div>
